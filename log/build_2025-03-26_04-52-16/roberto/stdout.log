@@ -1,0 +1,36 @@
+running develop
+Removing /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto.egg-link (link to .)
+running egg_info
+writing ../../build/roberto/roberto.egg-info/PKG-INFO
+writing dependency_links to ../../build/roberto/roberto.egg-info/dependency_links.txt
+writing entry points to ../../build/roberto/roberto.egg-info/entry_points.txt
+writing requirements to ../../build/roberto/roberto.egg-info/requires.txt
+writing top-level names to ../../build/roberto/roberto.egg-info/top_level.txt
+reading manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+writing manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+running build
+running build_py
+copying roberto/roberto_interface.py -> /home/elipson/roberto/build/roberto/build/lib/roberto
+copying roberto/roberto_player.py -> /home/elipson/roberto/build/roberto/build/lib/roberto
+copying roberto/roberto_teleop.py -> /home/elipson/roberto/build/roberto/build/lib/roberto
+running install
+running install_lib
+creating /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+copying /home/elipson/roberto/build/roberto/build/lib/roberto/__init__.py -> /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+copying /home/elipson/roberto/build/roberto/build/lib/roberto/roberto_interface.py -> /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+copying /home/elipson/roberto/build/roberto/build/lib/roberto/roberto_player.py -> /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+copying /home/elipson/roberto/build/roberto/build/lib/roberto/roberto_teleop.py -> /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+byte-compiling /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto/roberto_interface.py to roberto_interface.cpython-310.pyc
+byte-compiling /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto/roberto_player.py to roberto_player.cpython-310.pyc
+byte-compiling /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto/roberto_teleop.py to roberto_teleop.cpython-310.pyc
+running install_data
+copying resource/roberto -> /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages
+copying package.xml -> /home/elipson/roberto/install/roberto/share/roberto
+running install_egg_info
+Copying ../../build/roberto/roberto.egg-info to /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto-0.0.0-py3.10.egg-info
+running install_scripts
+Installing roberto_interface script to /home/elipson/roberto/install/roberto/lib/roberto
+Installing roberto_player script to /home/elipson/roberto/install/roberto/lib/roberto
+Installing roberto_teleop script to /home/elipson/roberto/install/roberto/lib/roberto
+writing list of installed files to '/home/elipson/roberto/build/roberto/install.log'
