@@ -1,5 +1,6 @@
 [console_scripts]
 roberto_interface = roberto.roberto_interface:main
+roberto_motor = roberto.roberto_motor:main
 roberto_player = roberto.roberto_player:main
 roberto_teleop = roberto.roberto_teleop:main
 

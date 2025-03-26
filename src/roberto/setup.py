@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             "roberto_teleop = roberto.roberto_teleop:main",
             "roberto_interface = roberto.roberto_interface:main",
-            "roberto_player = roberto.roberto_player:main"
+            "roberto_player = roberto.roberto_player:main",
+            "roberto_motor = roberto.roberto_motor:main"
         ],
     },
 )
