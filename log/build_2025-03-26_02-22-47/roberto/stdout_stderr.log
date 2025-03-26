@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/roberto/roberto.egg-info
+writing ../../build/roberto/roberto.egg-info/PKG-INFO
+writing dependency_links to ../../build/roberto/roberto.egg-info/dependency_links.txt
+writing entry points to ../../build/roberto/roberto.egg-info/entry_points.txt
+writing requirements to ../../build/roberto/roberto.egg-info/requires.txt
+writing top-level names to ../../build/roberto/roberto.egg-info/top_level.txt
+writing manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+reading manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+writing manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/elipson/roberto/build/roberto/build
+creating /home/elipson/roberto/build/roberto/build/lib
+creating /home/elipson/roberto/build/roberto/build/lib/roberto
+copying roberto/__init__.py -> /home/elipson/roberto/build/roberto/build/lib/roberto
+running install
+running install_lib
+creating /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+copying /home/elipson/roberto/build/roberto/build/lib/roberto/__init__.py -> /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+byte-compiling /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/elipson/roberto/install/roberto/share/ament_index
+creating /home/elipson/roberto/install/roberto/share/ament_index/resource_index
+creating /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages
+copying resource/roberto -> /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages
+copying package.xml -> /home/elipson/roberto/install/roberto/share/roberto
+running install_egg_info
+Copying ../../build/roberto/roberto.egg-info to /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/elipson/roberto/build/roberto/install.log'

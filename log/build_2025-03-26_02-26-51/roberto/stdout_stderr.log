@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing roberto.egg-info/PKG-INFO
+writing dependency_links to roberto.egg-info/dependency_links.txt
+writing entry points to roberto.egg-info/entry_points.txt
+writing requirements to roberto.egg-info/requires.txt
+writing top-level names to roberto.egg-info/top_level.txt
+reading manifest file 'roberto.egg-info/SOURCES.txt'
+writing manifest file 'roberto.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto.egg-link (link to .)
+
+Installed /home/elipson/roberto/build/roberto
+running symlink_data
+symbolically linking /home/elipson/roberto/build/roberto/resource/roberto -> /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages
+symbolically linking /home/elipson/roberto/build/roberto/package.xml -> /home/elipson/roberto/install/roberto/share/roberto

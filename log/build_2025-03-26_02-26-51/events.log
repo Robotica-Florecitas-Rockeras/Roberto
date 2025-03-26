@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.001368] (roberto) JobQueued: {'identifier': 'roberto', 'dependencies': OrderedDict()}
+[0.001617] (roberto) JobStarted: {'identifier': 'roberto'}
+[0.097938] (-) TimerEvent: {}
+[0.198683] (-) TimerEvent: {}
+[0.299358] (-) TimerEvent: {}
+[0.399994] (-) TimerEvent: {}
+[0.500681] (-) TimerEvent: {}
+[0.601354] (-) TimerEvent: {}
+[0.701977] (-) TimerEvent: {}
+[0.802565] (-) TimerEvent: {}
+[0.903156] (-) TimerEvent: {}
+[1.003810] (-) TimerEvent: {}
+[1.104538] (-) TimerEvent: {}
+[1.205999] (-) TimerEvent: {}
+[1.306749] (-) TimerEvent: {}
+[1.407399] (-) TimerEvent: {}
+[1.508042] (-) TimerEvent: {}
+[1.608710] (-) TimerEvent: {}
+[1.709375] (-) TimerEvent: {}
+[1.809987] (-) TimerEvent: {}
+[1.910588] (-) TimerEvent: {}
+[2.011192] (-) TimerEvent: {}
+[2.111817] (-) TimerEvent: {}
+[2.212477] (-) TimerEvent: {}
+[2.313084] (-) TimerEvent: {}
+[2.413740] (-) TimerEvent: {}
+[2.514333] (-) TimerEvent: {}
+[2.614953] (-) TimerEvent: {}
+[2.715710] (-) TimerEvent: {}
+[2.783167] (roberto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/elipson/roberto/build/roberto/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/elipson/roberto/build/roberto', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'elipson', 'SSH_CLIENT': '192.168.255.239 59457 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/elipson', 'OLDPWD': '/home/elipson/roberto/src/roberto', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/elipson/roberto/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'elipson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/elipson/roberto/build/roberto', 'SSH_CONNECTION': '192.168.255.239 59457 192.168.255.6 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/elipson/roberto/build/roberto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elipson/roberto/install/roberto/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.815851] (-) TimerEvent: {}
+[2.916492] (-) TimerEvent: {}
+[3.017150] (-) TimerEvent: {}
+[3.117825] (-) TimerEvent: {}
+[3.218479] (-) TimerEvent: {}
+[3.319103] (-) TimerEvent: {}
+[3.419735] (-) TimerEvent: {}
+[3.520353] (-) TimerEvent: {}
+[3.620959] (-) TimerEvent: {}
+[3.721643] (-) TimerEvent: {}
+[3.822266] (-) TimerEvent: {}
+[3.902951] (roberto) StdoutLine: {'line': b'running develop\n'}
+[3.922421] (-) TimerEvent: {}
+[4.023086] (-) TimerEvent: {}
+[4.123946] (-) TimerEvent: {}
+[4.224581] (-) TimerEvent: {}
+[4.325257] (-) TimerEvent: {}
+[4.425911] (-) TimerEvent: {}
+[4.520325] (roberto) StdoutLine: {'line': b'running egg_info\n'}
+[4.520985] (roberto) StdoutLine: {'line': b'writing roberto.egg-info/PKG-INFO\n'}
+[4.522039] (roberto) StdoutLine: {'line': b'writing dependency_links to roberto.egg-info/dependency_links.txt\n'}
+[4.522964] (roberto) StdoutLine: {'line': b'writing entry points to roberto.egg-info/entry_points.txt\n'}
+[4.523810] (roberto) StdoutLine: {'line': b'writing requirements to roberto.egg-info/requires.txt\n'}
+[4.524505] (roberto) StdoutLine: {'line': b'writing top-level names to roberto.egg-info/top_level.txt\n'}
+[4.526030] (-) TimerEvent: {}
+[4.532132] (roberto) StdoutLine: {'line': b"reading manifest file 'roberto.egg-info/SOURCES.txt'\n"}
+[4.535787] (roberto) StdoutLine: {'line': b"writing manifest file 'roberto.egg-info/SOURCES.txt'\n"}
+[4.542631] (roberto) StdoutLine: {'line': b'running build_ext\n'}
+[4.543625] (roberto) StdoutLine: {'line': b'Creating /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto.egg-link (link to .)\n'}
+[4.547272] (roberto) StdoutLine: {'line': b'\n'}
+[4.547884] (roberto) StdoutLine: {'line': b'Installed /home/elipson/roberto/build/roberto\n'}
+[4.548278] (roberto) StdoutLine: {'line': b'running symlink_data\n'}
+[4.548773] (roberto) StdoutLine: {'line': b'symbolically linking /home/elipson/roberto/build/roberto/resource/roberto -> /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages\n'}
+[4.549258] (roberto) StdoutLine: {'line': b'symbolically linking /home/elipson/roberto/build/roberto/package.xml -> /home/elipson/roberto/install/roberto/share/roberto\n'}
+[4.626321] (-) TimerEvent: {}
+[4.677482] (roberto) CommandEnded: {'returncode': 0}
+[4.726432] (-) TimerEvent: {}
+[4.736319] (roberto) JobEnded: {'identifier': 'roberto', 'rc': 0}
+[4.739163] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[3.234s] Invoking command in '/home/elipson/roberto/src/roberto': PYTHONPATH=/home/elipson/roberto/build/roberto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elipson/roberto/install/roberto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roberto build --build-base /home/elipson/roberto/build/roberto/build install --record /home/elipson/roberto/build/roberto/install.log --single-version-externally-managed install_data
+[4.266s] running egg_info
+[4.269s] creating ../../build/roberto/roberto.egg-info
+[4.269s] writing ../../build/roberto/roberto.egg-info/PKG-INFO
+[4.270s] writing dependency_links to ../../build/roberto/roberto.egg-info/dependency_links.txt
+[4.271s] writing entry points to ../../build/roberto/roberto.egg-info/entry_points.txt
+[4.272s] writing requirements to ../../build/roberto/roberto.egg-info/requires.txt
+[4.272s] writing top-level names to ../../build/roberto/roberto.egg-info/top_level.txt
+[4.273s] writing manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+[4.280s] reading manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+[4.283s] writing manifest file '../../build/roberto/roberto.egg-info/SOURCES.txt'
+[4.284s] running build
+[4.284s] running build_py
+[4.285s] creating /home/elipson/roberto/build/roberto/build
+[4.286s] creating /home/elipson/roberto/build/roberto/build/lib
+[4.286s] creating /home/elipson/roberto/build/roberto/build/lib/roberto
+[4.286s] copying roberto/__init__.py -> /home/elipson/roberto/build/roberto/build/lib/roberto
+[4.287s] running install
+[4.288s] running install_lib
+[4.292s] creating /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+[4.292s] copying /home/elipson/roberto/build/roberto/build/lib/roberto/__init__.py -> /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto
+[4.295s] byte-compiling /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto/__init__.py to __init__.cpython-310.pyc
+[4.296s] running install_data
+[4.297s] creating /home/elipson/roberto/install/roberto/share/ament_index
+[4.297s] creating /home/elipson/roberto/install/roberto/share/ament_index/resource_index
+[4.298s] creating /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages
+[4.298s] copying resource/roberto -> /home/elipson/roberto/install/roberto/share/ament_index/resource_index/packages
+[4.299s] copying package.xml -> /home/elipson/roberto/install/roberto/share/roberto
+[4.299s] running install_egg_info
+[4.307s] Copying ../../build/roberto/roberto.egg-info to /home/elipson/roberto/install/roberto/lib/python3.10/site-packages/roberto-0.0.0-py3.10.egg-info
+[4.312s] running install_scripts
+[4.399s] writing list of installed files to '/home/elipson/roberto/build/roberto/install.log'
+[4.516s] Invoked command in '/home/elipson/roberto/src/roberto' returned '0': PYTHONPATH=/home/elipson/roberto/build/roberto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/elipson/roberto/install/roberto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/roberto build --build-base /home/elipson/roberto/build/roberto/build install --record /home/elipson/roberto/build/roberto/install.log --single-version-externally-managed install_data
